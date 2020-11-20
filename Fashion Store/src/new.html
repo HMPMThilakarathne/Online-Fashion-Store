@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style/new.css">
+        <script src="js/login.js"></script>
+    </head>
+    <body>
+            
+
+            <div class="grid">
+                    <div class="box box1">
+                        <img src="../src/images/logo.png" width="200px">
+                    </div>
+                    <div class="box box2">
+                            <form>
+                                    <input id ="text" type="text" placeholder="Search for Products , Brands & More.." name="search">
+                                    <input id = "serc" type="submit"  value = "Search">
+                            </form>
+                    </div>
+                    <div class="box box3">
+            
+                        <img src="images/homenew.jpg" width="150px">
+                        
+                        
+                        
+                    </div>
+                </div>
+                
+                <div class = "img">	
+                
+                 
+                 
+                    <div class="dropdown">
+                    <button onclick = "dropd()" class="dropbtn">Men</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="sub/T-Shirts.html">T-Shirts</a>
+                        <a href="#Shirts">Shirts</a>
+                        <a href="#Jeans">Jeans</a>
+                        <a href="#Pants">Pants</a>
+                        <a href="#Shorts">Shorts</a>
+                        </div>
+                    </div>
+                    
+                    <div class="dropdown">
+                    <button onclick = "dropd()" class="dropbtn">Women</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#T-Shirts">T-Shirts & Vests</a>
+                        <a href="#Shirts">Tops</a>
+                        <a href="#Jeans">Lingerie</a>
+                        <a href="#Pants">Night wear</a>
+                        <a href="#Shorts">Jeans</a>
+                        <a href="#Others">Swim & Beachware</a>
+                        </div>
+                    </div>
+                    
+                    <div class="dropdown">
+                    <button onclick = "dropd()" class="dropbtn">Kids</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#T-Shirts">Boys' clothing</a>
+                        <a href="#Shirts">Girls' clothing</a>
+                        <a href="#Jeans">Toys & Games</a>
+                        <a href="#Pants">Footware</a>
+                        <a href="#Shorts">Books</a>
+                        </div>
+                    </div>
+                    
+                    <div class="dropdown">
+                    <button onclick = "dropd()" class="dropbtn">Shop more</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#T-Shirts">Jwellery</a>
+                        <a href="#Shirts">Watches</a>
+                        <a href="#Jeans">Home Accessories</a>
+                        <a href="#Jeans">Sunglasses</a>
+                        <a href="#Jeans">Footware</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="grid" width="50px">
+                        <div class="grid-box" >
+                
+                            <h2>New to Shades</h2>
+                            <p>If you are a new SHADES Online Customer please fill the following form with your own correct details.By creating an account with SHADES you can now shop faster and easier.Track the status of your shopping cart and be entitled to be a fabulous account holder benifits.
+                            </p>
+                            <br><br>
+                            <input type="button" class="sign" value="Sign Up"> 
+                        </div>
+                        <div class="grid-box">
+                            <form method="post" action="#" onsubmit="return enableButton()">
+                                <h3>Registered Customer</h3>
+                                <p>If you have already registered as an SHADES online Customer,please log in:</p>
+                                <p></p>
+                                <label for ="mail" class ="txt" >Email</label><input type="email" class="margin" id="eml"  placeholder="abc@gmail@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+                                <br><br>
+                                <lable for="password" class="txt">Password</lable><input type="password" class="margin" id="pwd" pattern=".*[a-z])(?=.*[A-Z]).{8,}" required>
+                                <br><br><br><br>
+                                <input type ="submit" class="sign" value="Sign-in"  id="submitBtn">
+                                <a href="password.html">
+                                <span class="psw">Forgot password? </a></span>
+                                </a>
+                
+                            </form>
+                        </div>
+                
+                    </div>
+                    <footer>
+                        <div class = "wrap">
+                            <div class = "wrap-box">
+                                    <input type = "button" class ="footerbut" value="About us " >
+                                    <input type = "button" class ="footerbut" value="Contact us " >
+                                    <input type = "button" class ="footerbut" value="Career " >
+                                    <input type = "button" class ="footerbut" value="Vision " >	
+                            </div><br/>
+                            <img src = "images/footer.png" class = "foot">
+            
+                            <div class="wrap-box">
+                                <h2 class = "Follow">Follow us on</h2><br/>
+                                <div class = wrap-sub>
+                                    <div class = "wbox1">
+                                            <a href = "https://www.facebook.com">
+                                            <img src = "../src/images/fb.png" class = "imglogo" width="50px">
+                                            </a>
+                                    </div>
+            
+                                    <div class = "wbox2">
+                                            <a href = "https://www.instagram.com">
+                                            <img src = "images/insta.png" class = "imglogo" width="50px">
+                                            </a>
+                                    </div>
+            
+                                    <div class = "wbox3">
+                                            <a href = "https://twitter.com">
+                                            <img src = "images/twit.png" class = "imglogo" width="50px">
+                                            </a>
+                                    </div>
+            
+                                    <div class = "wbox4">
+                                            <a href = "https://www.youtube.com">
+                                            <img src = "images/utube.png"class = "imglogo" width="50px">
+                                            </a>
+                                            
+                                    </div>
+                                    <br/>
+                                    
+                                </div>
+                            </div>
+                        </div><br/>
+                    </footer>   
+
+
+</body>
+</html>
